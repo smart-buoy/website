@@ -4,4 +4,4 @@
 
 [build]
     publish = "public"
-    command = "hugo --gc --minify"
+    command = "npm run build"
