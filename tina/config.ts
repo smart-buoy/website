@@ -31,7 +31,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "content",
         fields: [
           {
             type: "string",
@@ -48,6 +48,43 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "homepage",
+        label: "Homepage Settings",
+        path: "data",
+        format: 'yml',
+        fields: [
+          
+          {
+            type: "object",
+            name: "banner",
+            label: "Banner",
+            fields: [
+              {
+                type: 'boolean',
+                name: 'enable',
+                label: 'Enabled'
+              },
+              {type: "string", name: "title", label: "Title"},
+            ]
+          }
+        ],
+      },
+      {
+        name: 'settings',
+        path: '',
+        format: 'toml',
+        fields: [
+          {
+            type: 'object',
+            name: 'params',
+            label: 'Params',
+            fields: [
+              {type: 'string', name: 'description', label: 'Description'}
+            ]
+          }
+        ]
+      }
     ],
   },
 });
