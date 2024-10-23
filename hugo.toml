@@ -1,4 +1,4 @@
 baseURL = 'https://smartbuoy.netlify.app/'
 languageCode = 'en-us'
 title = 'SmartBuoy Official Website'
-theme = 'ananke'
+theme = 'smartbuoy'
