@@ -11,11 +11,6 @@ URL = "service/"
 weight = 3
 
 [[main]]
-name = "Blog"
-URL = "blog/"
-weight = 4
-
-[[main]]
 name = "Contact"
 URL = "contact/"
 weight = 5

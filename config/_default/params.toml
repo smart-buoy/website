@@ -8,7 +8,7 @@ description = "This is meta description"
 author = "SmartBuoy GmbH"
 image = "images/logo-white.png" # this image will be used as fallback if a page has no image of its own
 # contact info
-address = "Retzfeld 7, 4222 St. Georgen an der Guse"
+address = "Retzfeld 7<br/>4222 St. Georgen an der Gusen"
 mobile = "+1234567890"
 email = "info@smartbuoy.com"
 # contact form action
@@ -30,9 +30,9 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
-label = "sign up"
-link = "#"
+enable = false
+#label = "sign up"
+#link = "#"
 
 # Subscription
 [subscription]
