@@ -10,7 +10,7 @@ image = "images/logo-white.png" # this image will be used as fallback if a page 
 # contact info
 address = "Retzfeld 7<br/>4222 St. Georgen an der Gusen"
 mobile = "+1234567890"
-email = "info@smartbuoy.com"
+email = "contact@smartbuoy.eu"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -36,7 +36,7 @@ enable = false
 
 # Subscription
 [subscription]
-enable = true
+enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -62,24 +62,14 @@ button = "I Accept"
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.facebook.com/profile.php?id=61553150710926"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.linkedin.com/company/smartbuoy-gmbh/"
 
 [[social]]
 title = "linkedin"
 icon = "fab fa-linkedin-in" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.linkedin.com/company/smartbuoy-gmbh/"

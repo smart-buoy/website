@@ -1,27 +1,28 @@
 ############# English navigation ##############
 # main menu    
 [[main]]
-name = "For skipper"
+name = "Für Skipper"
 URL = "/"
 weight = 1
   
 [[main]]
-name = "For operator"
+name = "Für Betreiber"
 URL = "operator/"
 weight = 2
 
 [[main]]
 weight = 3
-name = "About Us"
+name = "Über Uns"
 hasChildren = true
+
   [[main]]
-  parent = "About Us"
-  name = "Company"
+  parent = "Über Uns"
+  name = "Unternehmen"
   URL = "about/"
   weight = 1
-  
+
   [[main]]
-  parent = "About Us"
+  parent = "Über Uns"
   name = "Team"
   URL = "team/"
   weight = 2
@@ -29,17 +30,17 @@ hasChildren = true
 #Footer menu
 
 [[footer]]
-name = "About us"
+name = "Über Uns"
 URL = "about/"
 
 [[footer]]
-name = "Contact"
+name = "Kontakt"
 URL = "contact/"
 
 [[footer]]
-name = "Imprint"
+name = "Impressum"
 URL = "#"
 
 [[footer]]
-name = "Privacy Policy"
+name = "Datenschutzerklärung"
 URL = "#"

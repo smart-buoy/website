@@ -1,5 +1,5 @@
 ---
-title: "Our Team"
+title: "Naš tim"
 # watermark text
 watermark: "Team"
 # page header background image

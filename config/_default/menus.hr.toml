@@ -1,45 +1,45 @@
-############# English navigation ##############
+############# Croatian navigation ##############
 # main menu    
 [[main]]
-name = "For skipper"
+name = "Za skipera"
 URL = "/"
 weight = 1
   
 [[main]]
-name = "For operator"
+name = "Za operatera"
 URL = "operator/"
 weight = 2
 
 [[main]]
 weight = 3
-name = "About Us"
+name = "O nama"
 hasChildren = true
   [[main]]
-  parent = "About Us"
-  name = "Company"
+  parent = "O nama"
+  name = "Društvo"
   URL = "about/"
   weight = 1
   
   [[main]]
-  parent = "About Us"
-  name = "Team"
+  parent = "O nama"
+  name = "Tim"
   URL = "team/"
   weight = 2
 
 #Footer menu
 
 [[footer]]
-name = "About us"
+name = "O nama"
 URL = "about/"
 
 [[footer]]
-name = "Contact"
+name = "Kontakt"
 URL = "contact/"
 
 [[footer]]
-name = "Imprint"
-URL = "#"
+name = "Impressum"
+URL = "pricy-policy/"
 
 [[footer]]
-name = "Privacy Policy"
-URL = "#"
+name = "zaštita podataka"
+URL = "pricy-policy/"

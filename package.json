@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SmartBuoy Website",
   "scripts": {
-    "dev": "tinacms dev -c \"hugo server -D\"",
+    "start": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo"
   },
   "keywords": [],

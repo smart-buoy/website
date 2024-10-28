@@ -22,7 +22,7 @@ about:
   button:
     enable : true
     label : "Contact Us"
-    link : "contact"
+    link : "contact/"
 
 ############################### counter #############################
 funfacts:
