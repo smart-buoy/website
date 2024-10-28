@@ -49,12 +49,12 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/venobox/venobox.min.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
+#[[params.plugins.js]]
+#link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
+#[[params.plugins.js]]
+#link = "plugins/search/search.js"
 [[params.plugins.js]]
 link = "plugins/aos/aos.js"
 
